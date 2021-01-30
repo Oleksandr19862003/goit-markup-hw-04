@@ -80,7 +80,7 @@ img {
 
 /* header contacts */
 .contacts {
-  margin-left: 305px;
+  margin-left: auto;
   display: flex;
 }
 .contact-link {
@@ -117,7 +117,6 @@ img {
   margin-right: auto;
   padding: 200px 0px;
   max-width: 1600px;
-  background: #2f303a;
   box-sizing: border-box;
   display: block;
   text-align: center;
@@ -148,8 +147,9 @@ img {
   font-size: 16px;
   line-height: 1.875;
   display: inline-block;
+  background: var(--accent-color);
   color: var(--common-lite-color);
-  color: var(--title-text-color);
+  border-radius: 4px;
   cursor: pointer;
 }
 .order-service:focus,
@@ -263,7 +263,7 @@ img {
   padding: 94px 0;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1600px;
+  box-sizing: content-box;
   background-color: #f5f4fa;
 }
 .team-title {
@@ -317,15 +317,19 @@ img {
   justify-content: center;
   margin-top: 10px;
 }
+.social {
+  width: 44px;
+  height: 44px;
+}
 .social:not(:first-child) {
   margin-left: 10px;
 }
 .social-link {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
   border-radius: 4px;
   fill: #afb1b8;
 }
@@ -353,12 +357,16 @@ img {
 .clients-list {
   display: flex;
 }
+.client-list-item {
+  width: 170px;
+  height: 90px;
+}
 .client-list-item:not(:last-child) {
   margin-right: 30px;
 }
 .clients-link {
-  width: 170px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,7 +384,6 @@ img {
   display: block;
   align-content: center;
 }
-
 /* section clients end */
 
 /* footer */
@@ -429,7 +436,6 @@ img {
 }
 .join {
   margin-left: 70px;
-  min-width: 206px;
   min-height: 80px;
 }
 .join-links-title {
@@ -447,8 +453,8 @@ img {
   display: flex;
 }
 .footer-social-link {
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -507,10 +513,11 @@ img {
 .project-list {
   margin-bottom: 30px;
   margin-left: 30px;
+  height: 404px;
   box-sizing: border-box;
   text-align: left;
   background: var(--common-lite-color);
-  border: 1px solid #eeeeee;
+  outline: 1px solid #eeeeee;
 }
 .project-list:hover,
 .project-list:focus {
@@ -541,5 +548,11 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+.project-links {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: block;
 }
 /* section portfolio end*/
