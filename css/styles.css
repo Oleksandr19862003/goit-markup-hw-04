@@ -65,7 +65,7 @@ img {
   color: var(--title-text-color);
 }
 .logo-top:focus {
-  outline: var(--outline);
+  outline: none;
 }
 .web {
   color: var(--accent-color);
@@ -91,7 +91,7 @@ img {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
-  outline: var(--outline);
+  outline: none;
 }
 /* header nav menu end */
 
@@ -121,7 +121,7 @@ img {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
-  outline: var(--outline);
+  outline: none;
   cursor: pointer;
 }
 .contact-list:not(:first-child) {
@@ -355,7 +355,7 @@ img {
   border-radius: 50%;
   fill: var(--common-lite-color);
   background-color: var(--accent-color);
-  outline: var(--outline);
+  outline: none;
 }
 /* social links for team members end */
 /* section team end */
@@ -397,7 +397,7 @@ img {
 .clients-link:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
-  outline: var(--outline);
+  outline: none;
 }
 .clients-item {
   display: block;
@@ -423,6 +423,7 @@ img {
   letter-spacing: var(--letter-spacing);
   color: var(--common-lite-color);
 }
+
 .footer-address {
   padding-top: 20px;
   width: 231px;
@@ -447,7 +448,6 @@ img {
 .footer-mail-link:hover,
 .footer-mail-link:focus {
   color: var(--accent-color);
-  outline: var(--outline);
 }
 .footer .container {
   align-items: baseline;
@@ -480,7 +480,7 @@ img {
 .footer-social-link:focus {
   border-radius: 50%;
   background-color: var(--accent-color);
-  outline: var(--outline);
+  outline: none;
 }
 /* footer end */
 
@@ -520,7 +520,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  outline: var(--outline);
+  outline: none;
 }
 .projects {
   display: flex;
